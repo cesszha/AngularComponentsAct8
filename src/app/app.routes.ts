@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { DisplayhelloworldComponent } from './displayhelloworld/displayhelloworld.component';
 import { ShowhellobuttonComponent } from './showhellobutton/showhellobutton.component';
 import { DisplaynameComponent } from './displayname/displayname.component';
-
+import { CounterComponent } from './counter/counter.component';
 
 export const routes: Routes = [
 	{
@@ -20,6 +20,11 @@ export const routes: Routes = [
 		title: 'Component #3: Display Name',
 		component: DisplaynameComponent,
 		path: 'display-name',
+	},
+	{
+		title: 'Component #4: Counter',
+		component: CounterComponent,
+		path: 'counter',
 	},
 	
 ];
