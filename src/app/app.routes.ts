@@ -7,6 +7,7 @@ import { CounterComponent } from './counter/counter.component';
 import { SimpleFormComponent } from './simple-form/simple-form.component';
 import { UserageComponent } from './userage/userage.component';
 import { UsergreetingComponent } from './usergreeting/usergreeting.component';
+import { CalculatorComponent } from './calculator/calculator.component';
 export const routes: Routes = [
 	{
 		title: 'Component #1: Display Hello World',
@@ -42,6 +43,11 @@ export const routes: Routes = [
 		title: 'Component #7: User Greeting',
 		component: UsergreetingComponent,
 		path: 'user-greeting',
+	},
+    {
+		title: 'Component #8: Calculator',
+		component: CalculatorComponent,
+		path: 'calculator',
 	},
 ];
 
