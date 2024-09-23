@@ -5,6 +5,7 @@ import { ShowhellobuttonComponent } from './showhellobutton/showhellobutton.comp
 import { DisplaynameComponent } from './displayname/displayname.component';
 import { CounterComponent } from './counter/counter.component';
 import { SimpleFormComponent } from './simple-form/simple-form.component';
+import { UserageComponent } from './userage/userage.component';
 export const routes: Routes = [
 	{
 		title: 'Component #1: Display Hello World',
@@ -30,6 +31,11 @@ export const routes: Routes = [
 		title: 'Component #5: Simple Form',
 		component: SimpleFormComponent,
 		path: 'simple-form',
+	},
+    {
+		title: 'Component #6: User Age',
+		component: UserageComponent,
+		path: 'user-age',
 	},
 ];
 
