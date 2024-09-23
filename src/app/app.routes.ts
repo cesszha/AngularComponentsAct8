@@ -12,7 +12,8 @@ import { TextlengthComponent } from './textlength/textlength.component';
 import { CurrencyconverterComponent } from './currencyconverter/currencyconverter.component';
 import { EvenoddcheckerComponent } from './evenoddchecker/evenoddchecker.component';
 import { WordreverserComponent } from './wordreverser/wordreverser.component';
-import { ShowdateComponent } from './showdate/showdate.component'
+import { ShowdateComponent } from './showdate/showdate.component';
+import { ShowusernameComponent } from './showusername/showusername.component';
 export const routes: Routes = [
 	{
 		title: 'Component #1: Display Hello World',
@@ -78,6 +79,11 @@ export const routes: Routes = [
 		title: 'Component #13: Show Date',
 		component: ShowdateComponent,
 		path: 'date-now',
+	},
+    {
+		title: 'Component #14: Show Username',
+		component: ShowusernameComponent,
+		path: 'show-username',
 	},
 ];
 
