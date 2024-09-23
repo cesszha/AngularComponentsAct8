@@ -9,6 +9,7 @@ import { UserageComponent } from './userage/userage.component';
 import { UsergreetingComponent } from './usergreeting/usergreeting.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { TextlengthComponent } from './textlength/textlength.component';
+import { CurrencyconverterComponent } from './currencyconverter/currencyconverter.component';
 export const routes: Routes = [
 	{
 		title: 'Component #1: Display Hello World',
@@ -54,6 +55,11 @@ export const routes: Routes = [
 		title: 'Component #9: Text Length',
 		component: TextlengthComponent,
 		path: 'textLength',
+	},
+    {
+		title: 'Component #10: Currency Converter',
+		component: CurrencyconverterComponent,
+		path: 'currency-converter',
 	},
 ];
 
