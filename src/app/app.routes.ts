@@ -18,6 +18,7 @@ import { MultiplicationtableComponent } from './multiplicationtable/multiplicati
 import { SimpleloginComponent } from './simplelogin/simplelogin.component';
 import { FahrenheittocelsiusComponent } from './fahrenheittocelsius/fahrenheittocelsius.component';
 import { BookmarklistComponent } from './bookmarklist/bookmarklist.component';
+import { CharactercounterComponent } from './charactercounter/charactercounter.component';
 export const routes: Routes = [
 	{
 		title: 'Component #1: Display Hello World',
@@ -108,6 +109,11 @@ export const routes: Routes = [
 		title: 'Component #18: Bookmarks List',
 		component: BookmarklistComponent,
 		path: 'bookmark-list',
+	},
+	{
+		title: 'Component #19: Character Counter',
+		component: CharactercounterComponent,
+		path: 'character-counter',
 	},
 ];
 
