@@ -21,6 +21,7 @@ import { BookmarklistComponent } from './bookmarklist/bookmarklist.component';
 import { CharactercounterComponent } from './charactercounter/charactercounter.component';
 import { PalindromecheckerComponent } from './palindromechecker/palindromechecker.component';
 import { TemperatureconverterComponent } from './temperatureconverter/temperatureconverter.component';
+import { ShoppinglistComponent } from './shoppinglist/shoppinglist.component';
 export const routes: Routes = [
 	{
 		title: 'Component #1: Display Hello World',
@@ -126,6 +127,11 @@ export const routes: Routes = [
 		title: 'Component #21: Temperature Converter',
 		component: TemperatureconverterComponent,
 		path: 'temp-converter',
+	},
+	{
+		title: 'Component #22: Shopping List',
+		component: ShoppinglistComponent,
+		path: 'shopping-list',
 	},
 ];
 
