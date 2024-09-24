@@ -32,7 +32,7 @@ import { UppercaseconverterComponent } from './uppercaseconverter/uppercaseconve
 import { WordshufflerComponent } from './wordshuffler/wordshuffler.component';
 import { BmisolverComponent } from './bmisolver/bmisolver.component';
 import { UsernamevalidatorComponent } from './usernamevalidator/usernamevalidator.component';
-
+import { InterestcalculatorComponent } from './interestcalculator/interestcalculator.component';
 
 
 export const routes: Routes = [
@@ -195,6 +195,11 @@ export const routes: Routes = [
 		title: 'Component #32: Username Validator',
 		component: UsernamevalidatorComponent,
 		path: 'username-validation',
+	},
+	{
+		title: 'Component #33: Interest Calculator',
+		component: InterestcalculatorComponent,
+		path: 'interest-calculator',
 	},
 
 ];
