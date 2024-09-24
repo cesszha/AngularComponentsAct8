@@ -17,6 +17,7 @@ import { ShowusernameComponent } from './showusername/showusername.component';
 import { MultiplicationtableComponent } from './multiplicationtable/multiplicationtable.component';
 import { SimpleloginComponent } from './simplelogin/simplelogin.component';
 import { FahrenheittocelsiusComponent } from './fahrenheittocelsius/fahrenheittocelsius.component';
+import { BookmarklistComponent } from './bookmarklist/bookmarklist.component';
 export const routes: Routes = [
 	{
 		title: 'Component #1: Display Hello World',
@@ -103,7 +104,11 @@ export const routes: Routes = [
 		component: FahrenheittocelsiusComponent,
 		path: 'fahrenheittocelsius',
 	},
-
+	{
+		title: 'Component #18: Bookmarks List',
+		component: BookmarklistComponent,
+		path: 'bookmark-list',
+	},
 ];
 
 @NgModule({
