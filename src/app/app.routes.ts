@@ -27,6 +27,14 @@ import { TodomanagerComponent } from './todomanager/todomanager.component';
 import { GuessnumbergameComponent } from './guessnumbergame/guessnumbergame.component';
 import { WordcounterComponent } from './wordcounter/wordcounter.component';
 import { RandomnumbergeneratorComponent } from './randomnumbergenerator/randomnumbergenerator.component';
+import { MultiplicationcheckerComponent } from './multiplicationchecker/multiplicationchecker.component';
+
+
+
+
+
+
+
 export const routes: Routes = [
 	{
 		title: 'Component #1: Display Hello World',
@@ -163,7 +171,12 @@ export const routes: Routes = [
 		component: RandomnumbergeneratorComponent,
 		path: 'rand-num',
 	},
-	
+	{
+		title: 'Component #28: Multiplication Checker',
+		component: MultiplicationcheckerComponent,
+		path: 'multiplication-check',
+	},
+
 ];
 
 @NgModule({
