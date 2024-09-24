@@ -26,6 +26,7 @@ import { FactorialcalculatorComponent } from './factorialcalculator/factorialcal
 import { TodomanagerComponent } from './todomanager/todomanager.component';
 import { GuessnumbergameComponent } from './guessnumbergame/guessnumbergame.component';
 import { WordcounterComponent } from './wordcounter/wordcounter.component';
+import { RandomnumbergeneratorComponent } from './randomnumbergenerator/randomnumbergenerator.component';
 export const routes: Routes = [
 	{
 		title: 'Component #1: Display Hello World',
@@ -157,6 +158,12 @@ export const routes: Routes = [
 		component: WordcounterComponent,
 		path: 'words-counter',
 	},
+	{
+		title: 'Component #27: Random Number Generator',
+		component: RandomnumbergeneratorComponent,
+		path: 'rand-num',
+	},
+	
 ];
 
 @NgModule({
