@@ -24,6 +24,7 @@ import { TemperatureconverterComponent } from './temperatureconverter/temperatur
 import { ShoppinglistComponent } from './shoppinglist/shoppinglist.component';
 import { FactorialcalculatorComponent } from './factorialcalculator/factorialcalculator.component';
 import { TodomanagerComponent } from './todomanager/todomanager.component';
+import { GuessnumbergameComponent } from './guessnumbergame/guessnumbergame.component';
 export const routes: Routes = [
 	{
 		title: 'Component #1: Display Hello World',
@@ -144,6 +145,11 @@ export const routes: Routes = [
 		title: 'Component #24: Todo Manager',
 		component: TodomanagerComponent,
 		path: 'todo',
+	},
+	{
+		title: 'Component #25: Guess Number Game',
+		component: GuessnumbergameComponent,
+		path: 'guess-number-game',
 	},
 ];
 
