@@ -33,6 +33,10 @@ import { WordshufflerComponent } from './wordshuffler/wordshuffler.component';
 import { BmisolverComponent } from './bmisolver/bmisolver.component';
 import { UsernamevalidatorComponent } from './usernamevalidator/usernamevalidator.component';
 import { InterestcalculatorComponent } from './interestcalculator/interestcalculator.component';
+import { CompoundinterestcalculatorComponent } from './compoundinterestcalculator/compoundinterestcalculator.component';
+
+
+
 
 
 export const routes: Routes = [
@@ -200,6 +204,11 @@ export const routes: Routes = [
 		title: 'Component #33: Interest Calculator',
 		component: InterestcalculatorComponent,
 		path: 'interest-calculator',
+	},
+	{
+		title: 'Component #34: Compound Interest Calculator',
+		component: CompoundinterestcalculatorComponent,
+		path: 'compound-interest-calculator',
 	},
 
 ];
