@@ -1,0 +1,11 @@
+<div>
+    <label for="height">Height (cm):</label>
+    <input type="number" #height id="height" placeholder="Enter height in centimeters"> 
+  
+    <label for="weight">Weight (kg):</label>
+    <input type="number" #weight id="weight" placeholder="Enter weight in kilograms">
+  
+    <button (click)="calculate()">Calculate</button>
+    
+    <h1>{{ Result }}</h1>
+  </div>
