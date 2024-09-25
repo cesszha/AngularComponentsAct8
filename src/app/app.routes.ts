@@ -42,6 +42,9 @@ import { UppercasegreetingComponent } from './uppercasegreeting/uppercasegreetin
 import { DivisiblecheckerComponent } from './divisiblechecker/divisiblechecker.component';
 import { StopwatchComponent } from './stopwatch/stopwatch.component';
 import { CountdownTimerSimpleComponent } from './count-down-timer/count-down-timer.component';
+import { SimpleCounterComponent } from './simple-counter/simple-counter.component';
+
+
 
 export const routes: Routes = [
 	{
@@ -253,6 +256,11 @@ export const routes: Routes = [
 		title: 'Component #42: Countdown Timer',
 		component: CountdownTimerSimpleComponent ,
 		path: 'count-down-timer',
+	},
+	{
+		title: 'Component #43: Simple Counter',
+		component: SimpleCounterComponent,
+		path: 'simple-counter',
 	},
 
 ];
