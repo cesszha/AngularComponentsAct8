@@ -40,7 +40,7 @@ import { CurrencyformatterComponent } from './currencyformatter/currencyformatte
 import { RandomquotedisplayComponent } from './randomquotedisplay/randomquotedisplay.component';
 import { UppercasegreetingComponent } from './uppercasegreeting/uppercasegreeting.component';
 import { DivisiblecheckerComponent } from './divisiblechecker/divisiblechecker.component';
-
+import { StopwatchComponent } from './stopwatch/stopwatch.component';
 
 
 export const routes: Routes = [
@@ -243,6 +243,11 @@ export const routes: Routes = [
 		title: 'Component #40: Divisible By',
 		component: DivisiblecheckerComponent,
 		path: 'divisible-by',
+	},
+	{
+		title: 'Component #41: Stopwatch',
+		component: StopwatchComponent,
+		path: 'timer',
 	},
 ];
 
