@@ -44,6 +44,9 @@ import { StopwatchComponent } from './stopwatch/stopwatch.component';
 import { CountdownTimerSimpleComponent } from './count-down-timer/count-down-timer.component';
 import { SimpleCounterComponent } from './simple-counter/simple-counter.component';
 import { RandomColorGeneratorComponent } from './random-color/random-color.component';
+import { RecipeCardComponent } from './recipe-card/recipe-card.component';
+
+
 
 
 export const routes: Routes = [
@@ -266,6 +269,11 @@ export const routes: Routes = [
 		title: 'Component #44: Random Color',
 		component: RandomColorGeneratorComponent,
 		path: 'random-color',
+	},
+	{
+		title: 'Component #45: Recipe Card ',
+		component: RecipeCardComponent  ,
+		path: 'recipe-card',
 	},
 
 
