@@ -43,7 +43,7 @@ import { DivisiblecheckerComponent } from './divisiblechecker/divisiblechecker.c
 import { StopwatchComponent } from './stopwatch/stopwatch.component';
 import { CountdownTimerSimpleComponent } from './count-down-timer/count-down-timer.component';
 import { SimpleCounterComponent } from './simple-counter/simple-counter.component';
-
+import { RandomColorGeneratorComponent } from './random-color/random-color.component';
 
 
 export const routes: Routes = [
@@ -262,6 +262,12 @@ export const routes: Routes = [
 		component: SimpleCounterComponent,
 		path: 'simple-counter',
 	},
+	{
+		title: 'Component #44: Random Color',
+		component: RandomColorGeneratorComponent,
+		path: 'random-color',
+	},
+
 
 ];
 
