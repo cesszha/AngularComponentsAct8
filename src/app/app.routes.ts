@@ -41,7 +41,7 @@ import { RandomquotedisplayComponent } from './randomquotedisplay/randomquotedis
 import { UppercasegreetingComponent } from './uppercasegreeting/uppercasegreeting.component';
 import { DivisiblecheckerComponent } from './divisiblechecker/divisiblechecker.component';
 import { StopwatchComponent } from './stopwatch/stopwatch.component';
-
+import { CountdownTimerSimpleComponent } from './count-down-timer/count-down-timer.component';
 
 export const routes: Routes = [
 	{
@@ -249,6 +249,12 @@ export const routes: Routes = [
 		component: StopwatchComponent,
 		path: 'timer',
 	},
+	{
+		title: 'Component #42: Countdown Timer',
+		component: CountdownTimerSimpleComponent ,
+		path: 'count-down-timer',
+	},
+
 ];
 
 @NgModule({
