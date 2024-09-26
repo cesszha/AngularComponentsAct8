@@ -1,0 +1,9 @@
+<div>
+    <h2>Month Name Finder</h2>
+    
+    <input type="number" [(ngModel)]="monthNumber" placeholder="Enter a number (1-12)" min="1" max="12" />
+    
+    <button (click)="findMonthName()">Find Month Name</button>
+    
+    <h3 *ngIf="monthName">Month Name: {{ monthName }}</h3>
+  </div>

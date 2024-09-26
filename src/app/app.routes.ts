@@ -48,6 +48,7 @@ import { RecipeCardComponent } from './recipe-card/recipe-card.component';
 import { RandomNameGeneratorSimpleComponent } from './random-name-gen/random-name-gen.component';
 import { TaskListPriorityComponent } from './task-list-prio/task-list-prio.component';
 import { AlphabeticalSorterComponent } from './alphabetical-sorter/alphabetical-sorter.component';
+import { MonthNameFinderComponent } from './month-name-finder/month-name-finder.component';
 
 
 
@@ -296,6 +297,11 @@ export const routes: Routes = [
 		title: 'Component #48: Alphabetical Sorter',
 		component: AlphabeticalSorterComponent,
 		path: 'alphabet-sorter',
+	},
+	{
+		title: 'Component #49: Month Name Finder',
+		component: MonthNameFinderComponent,
+		path: 'month-name-finder',
 	},
 
 
