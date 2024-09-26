@@ -45,6 +45,11 @@ import { CountdownTimerSimpleComponent } from './count-down-timer/count-down-tim
 import { SimpleCounterComponent } from './simple-counter/simple-counter.component';
 import { RandomColorGeneratorComponent } from './random-color/random-color.component';
 import { RecipeCardComponent } from './recipe-card/recipe-card.component';
+import { RandomNameGeneratorSimpleComponent } from './random-name-gen/random-name-gen.component';
+
+
+
+
 
 
 
@@ -275,7 +280,11 @@ export const routes: Routes = [
 		component: RecipeCardComponent  ,
 		path: 'recipe-card',
 	},
-
+	{
+		title: 'Component #46: Random Name Generator ',
+		component: RandomNameGeneratorSimpleComponent,
+		path: 'random-name',
+	},
 
 ];
 
