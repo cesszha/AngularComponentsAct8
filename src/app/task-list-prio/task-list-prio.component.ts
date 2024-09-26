@@ -7,7 +7,7 @@ imports:[FormsModule, CommonModule],
 selector:'app-task-list-priority',
 templateUrl:'./task-list-prio.component.html'
 })
-export class TaskListPriorityComponent {
+export class TaskListPrioComponent {
 tasks: string[] = []
 newTask:string='';
 

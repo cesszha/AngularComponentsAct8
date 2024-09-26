@@ -46,7 +46,7 @@ import { SimpleCounterComponent } from './simple-counter/simple-counter.componen
 import { RandomColorGeneratorComponent } from './random-color/random-color.component';
 import { RecipeCardComponent } from './recipe-card/recipe-card.component';
 import { RandomNameGeneratorSimpleComponent } from './random-name-gen/random-name-gen.component';
-import { TaskListPriorityComponent } from './task-list-prio/task-list-prio.component';
+import { TaskListPrioComponent } from './task-list-prio/task-list-prio.component';
 import { AlphabeticalSorterComponent } from './alphabetical-sorter/alphabetical-sorter.component';
 import { MonthNameFinderComponent } from './month-name-finder/month-name-finder.component';
 import { EmojiSelectorSimpleComponent } from './emoji-selector/emoji-selector.component';
@@ -291,7 +291,7 @@ export const routes: Routes = [
 	},
 	{
 		title: 'Component #47: Task List Priority ',
-		component: TaskListPriorityComponent,
+		component: TaskListPrioComponent,
 		path: 'task-list-prio',
 	},
 	{
