@@ -49,6 +49,7 @@ import { RandomNameGeneratorSimpleComponent } from './random-name-gen/random-nam
 import { TaskListPriorityComponent } from './task-list-prio/task-list-prio.component';
 import { AlphabeticalSorterComponent } from './alphabetical-sorter/alphabetical-sorter.component';
 import { MonthNameFinderComponent } from './month-name-finder/month-name-finder.component';
+import { EmojiSelectorSimpleComponent } from './emoji-selector/emoji-selector.component';
 
 
 
@@ -303,6 +304,12 @@ export const routes: Routes = [
 		component: MonthNameFinderComponent,
 		path: 'month-name-finder',
 	},
+	{
+		title: 'Component #50: Emoji Selector',
+		component: EmojiSelectorSimpleComponent,
+		path: 'emoji-selector',
+	},
+
 
 
 ];

@@ -1,0 +1,12 @@
+
+<div>
+    <h2>Emoji Selector</h2>
+
+
+    <div *ngFor="let emoji of emojis" style="cursor: pointer;" (click)="selectEmoji(emoji)">
+        <span>{{ emoji }}</span>
+    </div>
+
+    <p *ngIf="selectedEmoji">You selected: {{ selectedEmoji }}</p>
+</div>
+
