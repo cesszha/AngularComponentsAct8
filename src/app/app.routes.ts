@@ -46,6 +46,7 @@ import { SimpleCounterComponent } from './simple-counter/simple-counter.componen
 import { RandomColorGeneratorComponent } from './random-color/random-color.component';
 import { RecipeCardComponent } from './recipe-card/recipe-card.component';
 import { RandomNameGeneratorSimpleComponent } from './random-name-gen/random-name-gen.component';
+import { TaskListPriorityComponent } from './task-list-prio/task-list-prio.component';
 
 
 
@@ -284,6 +285,11 @@ export const routes: Routes = [
 		title: 'Component #46: Random Name Generator ',
 		component: RandomNameGeneratorSimpleComponent,
 		path: 'random-name',
+	},
+	{
+		title: 'Component #47: Task List Priority ',
+		component: TaskListPriorityComponent,
+		path: 'task-list-prio',
 	},
 
 ];
