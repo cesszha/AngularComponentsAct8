@@ -47,6 +47,7 @@ import { RandomColorGeneratorComponent } from './random-color/random-color.compo
 import { RecipeCardComponent } from './recipe-card/recipe-card.component';
 import { RandomNameGeneratorSimpleComponent } from './random-name-gen/random-name-gen.component';
 import { TaskListPriorityComponent } from './task-list-prio/task-list-prio.component';
+import { AlphabeticalSorterComponent } from './alphabetical-sorter/alphabetical-sorter.component';
 
 
 
@@ -291,6 +292,12 @@ export const routes: Routes = [
 		component: TaskListPriorityComponent,
 		path: 'task-list-prio',
 	},
+	{
+		title: 'Component #48: Alphabetical Sorter',
+		component: AlphabeticalSorterComponent,
+		path: 'alphabet-sorter',
+	},
+
 
 ];
 

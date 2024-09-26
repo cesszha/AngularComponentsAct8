@@ -1,0 +1,12 @@
+<div>
+    <h2>Alphabetical Sorter</h2>
+    
+    <textarea [(ngModel)]="inputWords" rows="5" placeholder="Enter words separated by commas..."></textarea>
+    
+    <button (click)="sortWords()">Sort Alphabetically</button>
+    
+    <h3>Sorted Words:</h3>
+    <ul>
+      <li *ngFor="let word of sortedWords">{{ word }}</li>
+    </ul>
+  </div>
